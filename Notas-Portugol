@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome 
+		inteiro idade
+		real nota1, nota2
+		escreva("Entre o seu nome\n")
+		leia(nome)
+		escreva("Entre a sua idade\n")
+		leia(idade)
+		escreva("Seu nome é: ", nome)
+		escreva("\nVocê tem ", idade, " anos")
+
+		escreva("\nEntre sua primeira nota\n")
+		leia(nota1)
+		escreva("\nEntre sua segunda nota\n")
+		leia(nota2)
+		escreva("Sua média é: ", (nota1+nota2)/2)
+	}
+}
