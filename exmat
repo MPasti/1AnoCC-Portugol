@@ -1,0 +1,27 @@
+programa
+{
+	
+inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+		inteiro x
+		
+		escreva("entre o seu número inteiro: \n")
+		leia(x)
+		escreva("Seu Sucessor é ", x+1)
+		escreva("\nSeu antecessor é ", x-1)
+		
+		real r
+		escreva("\nEntre o raio do circulo\n")
+		leia(r)
+		escreva("A área do circulo é: ", 3.14*(r*r))
+
+		real n
+		escreva("\nEntre um valor para calcular a raiz quadrada\n")
+		leia(n)
+		escreva("A raiz quadradada de ", n," é ", mat.potencia(n, 2))
+		
+		
+		
+	}
+}
