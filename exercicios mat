@@ -21,6 +21,21 @@ inclua biblioteca Matematica --> mat
 		leia(n)
 		escreva("A raiz quadradada de ", n," é ", mat.potencia(n, 2))
 		
+		inteiro n1, n2, n3, n4
+		real m, s
+		escreva("\nEntre o 1º valor: ")
+		leia(n1)
+		escreva("Entre o 2º valor: ")
+		leia(n2)
+		escreva("Entre o 3º valor: ")
+		leia(n3)
+		escreva("Entre o 4º valor: ")
+		leia(n4)
+		
+		s = (n1+n2+n3+n4)
+		
+		escreva("A soma desses valores é: ", s)
+		escreva("\nA média é: ", s/4)
 		
 		
 	}
