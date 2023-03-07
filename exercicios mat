@@ -36,7 +36,40 @@ inclua biblioteca Matematica --> mat
 		
 		escreva("A soma desses valores é: ", s)
 		escreva("\nA média é: ", s/4)
-		
+
+		real pa, pb, mab
+		cadeia nome
+		escreva("\nEntre seu nome: ")
+		leia(nome)
+		escreva("\nEntre o valor da prova A\n")
+		leia(pa)
+		escreva("Entre o valor da prova B\n")
+		leia(pb)
+		mab = ((pa*2 + pb*1)/3)
+		escreva(nome, ", sua média ponderada é: ",mab)
+
+		real a,b,c, delta, x1, x2, raizdelta
+		escreva("Entre o valor A")
+		leia(a)
+		escreva("Entre o valor B")
+		leia(b)
+		escreva("Entre o valor C")
+		leia(c)
+		delta = (b*b)*(-4*a*c)
+		raizdelta = mat.raiz(delta, 2.0)
+		x1 = (-b+raizdelta)/(2*a)
+		x2 = (-b-raizdelta)/(2*a)
+		escreva("O x1 é ", x1)
+		escreva("O x2 é ", x2)
+	
+		real d1, d2, d
+		escreva("Entre a primeira distância")
+		leia(d1)
+		escreva("Entre a segunda distância")
+		leia(d2)
+		d = (d2)-(d1)
+		escreva("A distancia entre os dois pontos é: ", d)
 		
 	}
 }
+
