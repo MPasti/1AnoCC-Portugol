@@ -1,5 +1,7 @@
 programa {
   funcao inicio() {
+  //Feito por Matheus Pasti e Lucas Macedo
+  
     caracter sabor
     inteiro bola
     real preco, valor
@@ -8,7 +10,7 @@ programa {
     leia(sabor)
     escreva("Escolha a quantidade de bolas de sorvete:\n")
     leia(bola)
-    escreva("Entre o preço por bola:\n")
+    escreva("Entre o preÃ§o por bola:\n")
     leia(preco)
 
     se (sabor == "C" e bola < 3){
