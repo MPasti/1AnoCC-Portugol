@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+    //Feito por Matheus Pasti e Lucas Macedo
     
     real a, b, c
 
@@ -11,16 +12,16 @@ programa {
     leia (c)
 
     se (a >= b+c){
-      escreva("Nenhum triangulo é formado")
+      escreva("Nenhum triangulo Ã© formado")
     }
     se(a*a == b*b + c*c){
-      escreva("Um triângulo retângulo é formado")
+      escreva("Um triÃ¢ngulo retÃ¢ngulo Ã© formado")
     }
     se(a*a > b*b + c*c){
-      escreva("Um triangulo obtuso é formado")
+      escreva("Um triangulo obtuso Ã© formado")
     }
     se(a*a < b*b + c*c){
-      escreva("Um triângulo acutângulo é formado")
+      escreva("Um triÃ¢ngulo acutÃ¢ngulo Ã© formado")
     }
   }
 }
