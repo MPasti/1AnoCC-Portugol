@@ -3,8 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		real n, tabu
-		inteiro cont
+		
+		inteiro cont, n, tabu
 		cont = 1
 
 		escreva("Entre um número para mostrar sua tabuada\n")
