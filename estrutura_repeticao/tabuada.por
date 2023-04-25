@@ -11,7 +11,7 @@ programa
 		leia(n)
 		enquanto(cont <= 10){
 			tabu = n * cont 
-			escreva(tabu," x ", cont, "\n")
+			escreva(n," x ", cont, " = ", tabu ,"\n")
 			cont = cont + 1
 		}
 	}
