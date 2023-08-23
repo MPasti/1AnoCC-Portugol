@@ -9,6 +9,7 @@ programa
 		escreva(a, " ", b, "\n")
 		inteiro zap = soma(a, b)
 		escreva(zap)
+		escreva("\nSoma = ", soma(a, b))
 	}
 //o & serve para alterar o valor, basicamente retornando os valores passados
 	funcao troca(inteiro &x, inteiro &y){
