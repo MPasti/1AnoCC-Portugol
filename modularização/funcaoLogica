@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		inteiro a
+		logico div
+		escreva("Entre um numero inteiro\n")
+		leia(a)
+		div = divisivel(a)
+		se (div == verdadeiro){
+			escreva("\nÉ divisível por 6")
+		}senao{
+			escreva("\nNão é divisível por 6")	
+		}
+		
+	}
+
+	funcao logico divisivel(inteiro a){
+		se(a % 6 == 0){
+			retorne verdadeiro
+		}senao{
+			retorne falso	
+		}
+	}
+}
