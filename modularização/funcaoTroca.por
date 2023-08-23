@@ -9,7 +9,7 @@ programa
 		escreva(a, " ", b, "\n")
 
 	}
-
+//o & serve para alterar o valor, basicamente retornando os valores passados
 	funcao troca(inteiro &x, inteiro &y){
 		inteiro aux
 		aux = x
