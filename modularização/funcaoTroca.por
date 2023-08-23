@@ -16,4 +16,9 @@ programa
 		x = y
 		y = aux
 	}
+	funcao inteiro soma(inteiro x, inteiro y){
+		inteiro result
+		result = x + y
+		retorne result
+	}
 }
