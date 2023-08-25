@@ -5,7 +5,6 @@ inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		//const inteiro TAM = 5
-		inteiro TAM = 0
 		inteiro i
 		real vet[5], m, s
 
