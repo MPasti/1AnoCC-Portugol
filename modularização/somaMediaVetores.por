@@ -10,7 +10,7 @@ inclua biblioteca Util --> u
 		real vet[5], m, s
 
 		para(i = 0; i <5; i++){
-			escreva("digite o elemento\n")
+			escreva("Digite o elemento ", i+1 ,"\n")
 			leia(vet[i])
 		}
 		s = somaVet(vet, TAM)
