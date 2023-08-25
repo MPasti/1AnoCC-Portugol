@@ -4,13 +4,12 @@ programa
 inclua biblioteca Util --> u
 	funcao inicio()
 	{
-		//const inteiro TAM = 5
-		inteiro i
-		real vet[5], m, s
 
-		escreva("Entre a quantidade de valores para o vetor:\n")
-		leia(TAM)
-		para(i = 0; i <5; i++){
+		const inteiro TAM = 5
+		inteiro i
+		real vet[TAM], m, s
+		
+		para(i = 0; i <TAM; i++){
 			escreva("Digite o elemento ", i+1 ,"\n")
 			leia(vet[i])
 		}
