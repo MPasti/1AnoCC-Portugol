@@ -1,9 +1,6 @@
-programa
-{
-	
-	funcao inicio()
-	{
-	
+programa {
+
+	funcao inicio() {
 		inteiro a
 		logico div, prim
 		escreva("Entre um numero inteiro\n")
@@ -11,32 +8,35 @@ programa
 		div = divisivel(a)
 		se (div == verdadeiro){
 			escreva("\nÉ divisível por 6")
-		}senao{
+		} senao {
 			escreva("\nNão é divisível por 6")	
 		}
 		prim = primos(a)
-		
+		se (prim == verdadeiro) {
+			escreva("\nÉ um número primo")
+		} senao {
+			escreva("\nNão é um número primo")
+		}
 	}
 
-	funcao logico divisivel(inteiro a){
-		se(a % 6 == 0){
+	funcao logico divisivel(inteiro a) {
+		se (a % 6 == 0) {
 			retorne verdadeiro
-		}senao{
+		} senao {
 			retorne falso	
 		}
 	}
-	funcao logico primos(inteiro a){
-			se(a < 1){
-			para(inteiro i = 0; i < a; i++){
-				se(a % i == 0){
-				retorne falso
-				}senao{
-					retorne verdadeiro
+	
+	funcao logico primos(inteiro a) {
+		se (a < 2) {
+			retorne falso
+		} senao {
+			para (inteiro i = 2; i < a; i++) {
+				se (a % i == 0) {
+					retorne falso
 				}
-				}	
-			}senao{
-				retorne verdadeiro
 			}
-			
-		} 
+			retorne verdadeiro
+		}
+	}
 }
