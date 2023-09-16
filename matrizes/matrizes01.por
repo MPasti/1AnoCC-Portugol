@@ -31,7 +31,6 @@ programa {
             }
         }
 
-        // Correção das provas e cálculo das estatísticas
         para (inteiro i = 1; i <= 40; i++) {
             notas[i] = 0
             para (inteiro j = 1; j <= 5; j++) {
@@ -40,7 +39,6 @@ programa {
                 }
             }
             
-            // Atualiza a maior e a menor nota
             se (notas[i] > maiorNota) {
                 maiorNota = notas[i]
             }
@@ -51,7 +49,6 @@ programa {
             // Soma das notas
             somaNotas = somaNotas + notas[i]
             
-            // Contagem de alunos acima da média
             se (notas[i] > 7) {
                 alunosAcimaMedia = alunosAcimaMedia + 1
             }
@@ -61,8 +58,6 @@ programa {
                 alunosAprovados = alunosAprovados + 1
             }
         }
-
-        // Cálculo da média da turma
         real mediaTurma = real(somaNotas) / 40
 
         // Exibição das estatísticas
