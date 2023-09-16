@@ -1,6 +1,6 @@
 programa {
     
-    funcao troca(inteiro &a, inteiro &b) {
+    funcao troca(inteiro a, inteiro b) {
         inteiro temp
         temp = a
         a = b
@@ -23,7 +23,6 @@ programa {
         inteiro alunosAcimaMedia = 0
         inteiro alunosAprovados = 0
 
-        // Leitura das respostas dos alunos
         para (inteiro i = 1; i <= 40; i++) {
             escreva("Aluno ", i, " - Informe as respostas (5 caracteres): ")
             para (inteiro j = 1; j <= 5; j++) {
@@ -46,21 +45,20 @@ programa {
                 menorNota = notas[i]
             }
             
-            // Soma das notas
+       
             somaNotas = somaNotas + notas[i]
             
             se (notas[i] > 7) {
                 alunosAcimaMedia = alunosAcimaMedia + 1
             }
             
-            // Contagem de alunos aprovados
+           
             se (notas[i] >= 7) {
                 alunosAprovados = alunosAprovados + 1
             }
         }
         real mediaTurma = real(somaNotas) / 40
 
-        // Exibição das estatísticas
         escreva("Menor nota: ", menorNota, "\n")
         escreva("Maior nota: ", maiorNota, "\n")
         escreva("Média da turma: ", mediaTurma, "\n")
